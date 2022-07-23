@@ -1,25 +1,23 @@
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-
 
 public class Main 
 {
     public static void main(String args[])
     {
         File in = new File("input.txt");
-        Scanner read = new Scanner(in);
-        buff = args.length == 1 ? args[0] : "";
+        Scanner buff = new Scanner(in);
         
         try
         {
-            while(read.hasNextLine())
+            while(buff.hasNextLine())
             {
-                buff = read.nextLine();
-                String t = buff;
+                String t = buff.nextLine;
             
-                if(A() && i = t.length)
+                if(A() && i == t.length)
                 {
                     System.out.println("The string \"" + t + "\" is in the language.\n");
                 }
